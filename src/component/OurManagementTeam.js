@@ -11,45 +11,45 @@ function OurManagementTeam(){
     <div class="row">
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" propsstyle="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-          <div class="advisor_thumb"><img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="" width={200} height={200}/>
+          <div class="advisor_thumb"><img src="profile.webp" alt="" width={200} height={200}/>
             <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
           </div>
          <div class="single_advisor_details_info">
-            <h6>Samantha Sarah</h6>
-            <p class="designation">Founder &amp; CEO</p>
+            <h6>Mr. Tariq Khan</h6>
+            <p class="designation">(Dir Finance)</p>
           </div>
         </div>
       </div>
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.3s" propsstyle="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-          <div class="advisor_thumb"><img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="" width={200} height={200}/>
+          <div class="advisor_thumb"><img src="profile.webp" alt="" width={200} height={200}/>
             <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
           </div>
           <div class="single_advisor_details_info">
-            <h6>Nazrul Islam</h6>
-            <p class="designation">UI Designer</p>
+            <h6>Mr. Muhammad Ashraf</h6>
+            <p class="designation">In Charge Medical Affairs</p>
           </div>
         </div>
       </div>
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.4s" propsstyle="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-          <div class="advisor_thumb"><img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="" width={200} height={200}/>
+          <div class="advisor_thumb"><img src="profile.webp" alt="" width={200} height={200}/>
             <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
           </div>
           <div class="single_advisor_details_info">
-            <h6>Riyadh Khan</h6>
-            <p class="designation">Developer</p>
+            <h6>Mr.Muhammad Imran Ali Shah</h6>
+            <p class="designation">Manager Finance and HR Department</p>
           </div>
         </div>
       </div>
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.5s" propsstyle="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-          <div class="advisor_thumb"><img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="" width={200} height={200}/>
+          <div class="advisor_thumb"><img src="profile.webp" alt="" width={200} height={200}/>
             <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
           </div>
           <div class="single_advisor_details_info">
-            <h6>Niloy Islam</h6>
-            <p class="designation">Marketing Manager</p>
+            <h6>Syed Faisal Ali</h6>
+            <p class="designation">Senior Manager Admin Marketing</p>
           </div>
         </div>
       </div>
