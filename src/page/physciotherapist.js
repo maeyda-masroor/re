@@ -6,15 +6,12 @@ function Neurologist(){
 
     return (
         <div class="container">
-        <h1>Following Consultant in Neurologist Department</h1>
+        <h1 style={{fontSize:'35px'}}>Physio Therapist Department</h1>
         {consultant?.map((consultant) => {
         if(consultant.department == 'PHYSIO THERAPIST'){
             return (
           <div class="d-flex align-items-center rounded-lg  shadow-sm border-1" style={{height:'200px'}}>
           <div class="p-5">
-            <h3 class="d-flex gap-1 mt-sm-4 mt-1 px-0 mb-1  font-weight-bold" style={{fontSize:'20px'}}>
-            {consultant.department}
-          </h3>
             <p class="d-flex gap-1 mt-sm-4 mt-1 px-0 mb-1">
             {consultant.name}
             </p>

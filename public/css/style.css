@@ -8,14 +8,14 @@
 
     color: #986931;
     
-    font-size: 60px;
+    font-size: 35px;
     
     font-weight: bold;
     
 }
 .heading1::first-letter{
     color: white;
-    font-size: 60px;
+    font-size: 35px;
     font-weight: bold;
 }
 .fw-medium {

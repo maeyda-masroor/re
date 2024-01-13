@@ -6,21 +6,18 @@ function Neurologist(){
 
     return (
         <div class="container">
-        <h1>Following Consultant in Neurologist Department</h1>
+        <i><h1 style={{fontSize:'35px'}}>Sonologist Department</h1></i>
         {consultant?.map((consultant) => {
         if(consultant.department == 'SONOLOGIST'){
             return (
           <div class="d-flex align-items-center rounded-lg  shadow-sm border-1" style={{height:'200px'}}>
           <div class="p-5">
-            <h3 class="d-flex gap-1 mt-sm-4 mt-1 px-0 mb-1  font-weight-bold" style={{fontSize:'20px'}}>
-            {consultant.department}
-          </h3>
-            <p class="d-flex gap-1 mt-sm-4 mt-1 px-0 mb-1">
+            <i><p class="d-flex gap-1 mt-sm-4 mt-1 px-0 mb-1">
             {consultant.name}
             </p>
             <p class="mt-1 mb-1 font-weight-light text-muted">{consultant.day}</p>
             <p class="mt-1 mb-1 font-weight-light text-muted">{consultant.timing}</p>
-            
+            </i>
     <ul class="d-flex gap-1 mt-sm-4 mt-1 px-0 mb-4" style={{listStyleType:'none'}}>
       <li>
         <a href="#" class="text-gray-500 hover-text-gray-900">

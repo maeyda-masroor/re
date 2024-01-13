@@ -17,26 +17,28 @@ function Navbars(){
     <Nav.Link href='/Inquiry'>Inquiry</Nav.Link>
     <Nav.Link href="/contact">Contact</Nav.Link>
     <NavDropdown title="Departments" id="basic-nav-dropdown">
-    <NavDropdown.Item href="/generalphysician">GENERAL PHYSICIAN</NavDropdown.Item>
-      <NavDropdown.Item href="/gastrologist">GASTROENTROLOGIST</NavDropdown.Item>
-      <NavDropdown.Item href="/pediatrican">PEDIATRICAN</NavDropdown.Item>
       <NavDropdown.Item href="/cardiologist">CARDIOLOGIST</NavDropdown.Item>
-      <NavDropdown.Item href="/urlogist">URLOGIST</NavDropdown.Item>
-      <NavDropdown.Item href="/nephrologist">NEPHROLOGIST</NavDropdown.Item>
       <NavDropdown.Item href="/dermatoglist">DERMATOGLIST</NavDropdown.Item>
       <NavDropdown.Item href="/ENTspecialist">ENT SPECIALIST</NavDropdown.Item>
-      <NavDropdown.Item href="/nerosurgeon">NEURO SURGEON/PHYSICIAN</NavDropdown.Item>
+      <NavDropdown.Item href="/generalphysician">GENERAL PHYSICIAN</NavDropdown.Item>
+      <NavDropdown.Item href="/gastrologist">GASTROENTROLOGIST</NavDropdown.Item>
       <NavDropdown.Item href="/gynacologist">GYNACOLOGIST& OBSTRETRICIAN</NavDropdown.Item>
-      <NavDropdown.Item href="/orthopedic">ORTHOPEDIC SURGEON</NavDropdown.Item>
-      <NavDropdown.Item href="/rheumatologist">RHEUMATOLOGIST</NavDropdown.Item>
-      <NavDropdown.Item href="/plasticsurgeon">PLASTIC SURGEON</NavDropdown.Item>
-      <NavDropdown.Item href="/sonologist">SONOLOGIST</NavDropdown.Item>
       <NavDropdown.Item href="/generalsurgeon">GENERAL SURGEON</NavDropdown.Item>
+      <NavDropdown.Item href="/nephrologist">NEPHROLOGIST</NavDropdown.Item>
+      <NavDropdown.Item href='/neurologist'>Neurologist</NavDropdown.Item>
+      <NavDropdown.Item href="/nerosurgeon">NEURO SURGEON/PHYSICIAN</NavDropdown.Item>
+      <NavDropdown.Item href="/orthopedic">ORTHOPEDIC SURGEON</NavDropdown.Item>
+      <NavDropdown.Item href="/plasticsurgeon">PLASTIC SURGEON</NavDropdown.Item>
+      <NavDropdown.Item href="/pediatrican">PEDIATRICAN</NavDropdown.Item>
+   
+      <NavDropdown.Item href="/psychotherapist">PHYSIO THERAPIST</NavDropdown.Item>
       <NavDropdown.Item href="/physchiatrist">PHYCHIATRIST</NavDropdown.Item>
       <NavDropdown.Item href="/physcologist">PHYCOLOGIST</NavDropdown.Item>
+      <NavDropdown.Item href="/rheumatologist">RHEUMATOLOGIST</NavDropdown.Item>
+      <NavDropdown.Item href="/sonologist">SONOLOGIST</NavDropdown.Item>
       <NavDropdown.Item href="/speechtherapist">SPEECH THERAPIST</NavDropdown.Item>
-      <NavDropdown.Item href="/psychotherapist">PHYSIO THERAPIST</NavDropdown.Item>
-      <NavDropdown.Item href='/neurologist'>Neurologist</NavDropdown.Item>
+      <NavDropdown.Item href="/urlogist">URLOGIST</NavDropdown.Item>
+   
         </NavDropdown>
    </Nav>
   </Navbar.Collapse>

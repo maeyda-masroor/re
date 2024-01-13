@@ -3,7 +3,7 @@ function OurManagementTeam(){
     <div class="row justify-content-center">
       <div class="col-12 col-sm-8 col-lg-6">
         <div class="section_heading text-center wow fadeInUp" data-wow-delay="0.2s" propsstyle="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-          <h2 style={{fontSize:'60px'}}>Our Management Team <span></span></h2>
+          <u style={{color:'#986931'}}><i><h2 style={{fontSize:'45px'}}>Our Management Team <span></span></h2></i></u>
           <div class="line"></div>
         </div>
       </div>

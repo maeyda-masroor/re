@@ -20,13 +20,13 @@ function CME(){
           </div>
           <div class="col-xs-12 col-md-6">
             <div>
-              <h2 class="h1 mb-3">Continued Medical Education  ( CME )</h2>
+            <i><h2 class="h1 mb-3">Continued Medical Education  ( CME )</h2>
               <p style={{color:'white'}}>Remedial Centre Hospital is a pioneer in the field of Continued Medical Education (CME). It has been planning seminars and events for GPs in the North of Karachi since February 2008.
-         </p>
+         </p></i>
       {isShowMore && (
-        <p style={{color:'white'}}>
+        <i><p style={{color:'white'}}>
           Highly qualified doctors who are experts in their respective clinical specialties conduct these events. The aim of CME is to help GPs maintain competence and empower them with new skills, whilst informing them about developments in General Practice. The CME programme at Remedial Centre Hospital is an ongoing project which will be developed further with time.
-        </p>
+        </p></i>
       )}
 
       <button onClick={toggleReadMoreLess}>

@@ -14,7 +14,7 @@ const LocationPin = ({ text }) => (
 
 const Map = ({ location, zoomLevel }) => (
   <div className="map">
-    <div className="google-map">
+    <div class="google-map">
       <GoogleMapReact
         bootstrapURLKeys={{ key: '' }}
         defaultCenter={location}
@@ -27,7 +27,7 @@ const Map = ({ location, zoomLevel }) => (
         />
       </GoogleMapReact>
     </div>
-  </div>
+    </div>
 )
 
 export default Map;

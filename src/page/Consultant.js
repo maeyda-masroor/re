@@ -1,10 +1,69 @@
-import { useState } from 'react';
-import data from "../component/consultantData"; 
-import React from 'react';
+import Urlogist from './Urologist';
+import Dermatoglist from './Dermatologist';
+import GeneralPhys from './generalPhysician';
+import GYNACOLOGIST from './gynacologistAndObtretrican';
+import NEPHROLOGIST from './Nephrologist';
+import Gastrologist from './Gastrologist';
+import CARDIOLOGIST from './Cardologist';
+import NeuroSurgeon from './neurosurgeon';
+import Orthopedic from './orthopedicSurgeon';
+import GeneralSurgeon from './generalSurgeon';
+import Pediatrician from './Pediatrician';
+import Phycologist from './physcologist';
+import Physciatrist from './physhiatrist';
+import PhysioTherapist from './physciotherapist';
+import Rheumalogist from './RHEUMATOLOGIST';
+import Neurologist from './Neurologist';
+import Sonologist from './sonologist';
+import SpeechTherapist from './speechTherapist';
+import ENTSpecialist from './ENTSpecialist';
+import PlasticSurgeon from './plastixSurgeon';
+
 function Consultant() {
-  const [consultant,setConsultant] = useState(data) 
-		return (
-            <div class="container">
+  	return <div>
+        <CARDIOLOGIST/>
+        <br/>
+        <Dermatoglist/>
+        <br/>
+        <ENTSpecialist/>
+        <br/>
+        <Gastrologist/>
+        <br/>
+        <GeneralPhys />
+        <br/>
+        <GYNACOLOGIST/>
+        <br/>
+        <GeneralSurgeon/>
+        <br/>
+        <GYNACOLOGIST/>
+        <br/>
+        <NEPHROLOGIST/>
+        <br/>
+        <NeuroSurgeon/>
+        <br/>
+        <Neurologist/>
+        <br/>
+        <Orthopedic/>
+        <br/>
+        <Pediatrician/>
+        <br/>
+        <Phycologist/>
+        <br/>
+        <PhysioTherapist/>
+        <br/>
+        <Physciatrist/>
+        <br/>
+        <PlasticSurgeon/>
+        <br/>
+        <Rheumalogist/>
+        <br/>
+        <Sonologist/>
+        <br/>
+        <SpeechTherapist/>
+        <br/>
+        <Urlogist/>
+      </div>
+      /*   (   <div class="container">
             <h1>List of Consultant</h1>
 					{consultant?.map((consultant) => {
 						return (
@@ -43,7 +102,7 @@ function Consultant() {
 				}
             
             </div>
-        );
+        );*/
     }
 
 export default Consultant;

@@ -16,7 +16,7 @@ export default function PanelList() {
       };
   return (
     <div>
-    <center><h1 style={{fontSize:'60px'}}>Our Panel List</h1></center>
+    <u style={{color:'#986931'}}><i><center><h1 style={{fontSize:'45px'}}>Our Panel List</h1></center></i></u>
     <Slider {...settings}>
       <div>
         <img src = "1.png" width={100} height={100}/>

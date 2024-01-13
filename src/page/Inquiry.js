@@ -1,6 +1,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import axios from "axios";
 function MakeAnInquiry(){
     const [errorMessage, setErrorMessage] = React.useState("");
@@ -23,12 +24,12 @@ function MakeAnInquiry(){
   
     };
     return <div class="container"> 
-        <h1>Give Us Feeback , If you have an Inquiry , you may contact Us or Fill the form below</h1>
+        <i><h1 style={{fontSize:'35px'}}>Give Us Feeback , If you have an Inquiry , you may <Link to = '/contact'>Contact Us</Link> or Fill the form below</h1></i>
         <br/>
      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
     <div class="bg-light rounded h-100 d-flex align-items-center p-5">
         <form onSubmit={handleSubmit(onSubmit)}>
-            <div class="row g-3">
+            <i><div class="row g-3">
                 <div class="col-12 col-sm-6">
                     <input type="text" class="form-control border-0" placeholder="Your Name" propsstyle="height: 55px;" onChange={(e) => setName(e.target.value)}/>
                 </div>
@@ -71,6 +72,7 @@ function MakeAnInquiry(){
                     <button class="btn btn-primary w-100 py-3" type="submit">Submit Your Inquiry</button>
                 </div>
             </div>
+            </i>
         </form>
     </div>
 </div>

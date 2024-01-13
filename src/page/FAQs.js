@@ -7,7 +7,7 @@ function FAQs() {
   return (
     <main>
       <div className='container'>
-        <h3>questions and answers about login</h3>
+        <i><h1 style={{fontSize:'35px'}}>questions and answers about login</h1></i>
         <section className='info'>
           {questions.map((question) => {
             return (

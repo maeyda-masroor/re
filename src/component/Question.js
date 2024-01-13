@@ -6,12 +6,12 @@ const Question = ({ title, info }) => {
     <div class="container">
     <article className='question'>
       <header>
-        <h4>{title}</h4>
+        <i><h4>{title}</h4></i>
         <button className='btn' onClick={() => setShowInfo(!showInfo)}>
           {showInfo ? "-" : "+"}
         </button>
       </header>
-      {showInfo && <p>{info}</p>}
+      {showInfo && <i><p>{info}</p></i>}
     </article>
     </div>
   );
