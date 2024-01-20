@@ -6,6 +6,7 @@ import Features from '../component/Features';
 import Header from '../component/Header';
 import Appointment from '../component/MakeAnAppointment';
 import CEOmessage from '../component/CEOMessage';
+import { Helmet } from 'react-helmet';
 function Home(){
     return <div>
         <Header/>
@@ -16,6 +17,6 @@ function Home(){
         <WeAreHiring/>
         <OurManagementTeam/>
         <PanelList/>
-    </div>
+       </div>
 }
 export default Home;

@@ -16,10 +16,10 @@ export default function PanelList() {
       };
   return (
     <div>
-    <u style={{color:'#986931'}}><i><center><h1 style={{fontSize:'45px'}}>Our Panel List</h1></center></i></u>
+    <center><h1 style={{fontSize:'35px',color:'#986931'}}>Our Panel List</h1></center>
     <Slider {...settings}>
       <div>
-        <img src = "1.png" width={100} height={100}/>
+        <img src = "1.jpeg" width={100} height={100}/>
       </div>
       <div>
         <img src = "2.png" width={100} height={100}/>

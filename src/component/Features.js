@@ -4,7 +4,7 @@ return <div class="container-fluid overflow-hidden my-5 px-lg-5" style={{backgro
             <div class="row g-0 mx-lg-1">
                 <div class="col-lg-6 feature-text py-1 wow fadeIn" data-wow-delay="0.1s">
                     <div class="p-lg-5 ps-lg-0">
-                        <i><h2 class="text-white mb-4" style={{fontSize:'45px'}}>Why Choose Us</h2></i>
+                        <h2 class="text-white mb-4" style={{fontSize:'35px'}}>Why Choose Us</h2>
                         <div class="row g-4">
                             <div class="col-6">
                                 <div class="d-flex align-items-center">
@@ -12,8 +12,8 @@ return <div class="container-fluid overflow-hidden my-5 px-lg-5" style={{backgro
                                         <i class="fa fa-user-md color"></i>
                                     </div>
                                     <div class="ms-4">
-                                        <i><p class="text-white mb-2">Experience</p></i>
-                                        <i><h5 class="text-white mb-0">Doctors</h5></i>
+                                        <p class="text-white mb-2">Experience</p>
+                                        <h5 class="text-white mb-0">Doctors</h5>
                                     </div>
                                 </div>
                             </div>
@@ -23,8 +23,8 @@ return <div class="container-fluid overflow-hidden my-5 px-lg-5" style={{backgro
                                         <i class="fa fa-check color"></i>
                                     </div>
                                     <div class="ms-4">
-                                        <i><p class="text-white mb-2">Quality</p></i>
-                                        <i><h5 class="text-white mb-0">Services</h5></i>
+                                        <p class="text-white mb-2">Quality</p>
+                                        <h5 class="text-white mb-0">Services</h5>
                                     </div>
                                 </div>
                             </div>
@@ -34,8 +34,8 @@ return <div class="container-fluid overflow-hidden my-5 px-lg-5" style={{backgro
                                         <i class="fa fa-comment-medical color"></i>
                                     </div>
                                     <div class="ms-4">
-                                        <i><p class="text-white mb-2">Positive</p></i>
-                                        <i><h5 class="text-white mb-0">Consultation</h5></i>
+                                        <p class="text-white mb-2">Positive</p>
+                                        <h5 class="text-white mb-0">Consultation</h5>
                                     </div>
                                 </div>
                             </div>
@@ -45,8 +45,8 @@ return <div class="container-fluid overflow-hidden my-5 px-lg-5" style={{backgro
                                         <i class="fa fa-headphones color"></i>
                                     </div>
                                     <div class="ms-4">
-                                        <i><p class="text-white mb-2">24 Hours</p></i>
-                                        <i><h5 class="text-white mb-0">Support</h5></i>
+                                        <p class="text-white mb-2">24 Hours</p>
+                                        <h5 class="text-white mb-0">Support</h5>
                                     </div>
                                 </div>
                             </div>

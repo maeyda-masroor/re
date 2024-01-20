@@ -4,7 +4,7 @@ function WeAreHiring(){
             <div class="container feature px-lg-1">
                 <div class="row g-0 mx-lg-1">
                         <div class="wow fadeIn" data-wow-delay="0.1s">
-                            <i><center><h1 class="text-white" style={{fontSize:'45px'}}>We are Hiring</h1><ReactWhatsapp number="+92 03415444406"><button style={{borderRadius:'25px',color:'#986931',backgroundColor:'white'}}>Contact Us</button></ReactWhatsapp></center></i>
+                            <center><h1 class="text-white" style={{fontSize:'35px',fontFamily:'Serif'}}>We are Hiring</h1><ReactWhatsapp number="+92 03415444406"><button style={{borderRadius:'25px',color:'#986931',backgroundColor:'white'}}>Contact Us</button></ReactWhatsapp></center>
                    </div>
                     </div>
                     </div>

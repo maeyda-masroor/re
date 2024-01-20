@@ -9,8 +9,8 @@ function NewsAndArticle(){
           <a class="mh-100" href="#">
             <img src="https://raw.githubusercontent.com/solodev/recent-blog-posts/master/images/news-1.jpg" alt="LunarXP Wins Space Innovator of the Year Award" class="img-responsive w-100"/></a>
           <span class="hp-posts-cat">Awards</span>
-          <i><h4 class="mt-3"><a href="#">LunarXP Wins Space Innovator of the Year Award</a></h4>
-           <p></p></i>
+          <h4 class="mt-3"><a href="#">LunarXP Wins Space Innovator of the Year Award</a></h4>
+           <p></p>
           <a href="#" class="read-more">Read more &gt;</a>
         </div>
       </li>

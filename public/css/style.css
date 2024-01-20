@@ -4,6 +4,27 @@
     --light: #A47551;
      --dark :black ;
 }
+h1{
+    font-family: 'Serif';
+}
+h2{
+    font-family: 'Serif';
+}
+h3{
+    font-family: 'Serif';
+}
+h4{
+    font-family: 'Serif';
+}
+h5{
+    font-family: 'Serif';
+}
+h6{
+    font-family: 'Serif';
+}
+p{
+    font-family: 'Serif';
+}
 .heading::first-letter {
 
     color: #986931;
@@ -58,6 +79,7 @@
 .btn {
     font-weight: 200;
     transition: .5s;
+    font-family: 'Serif';
 }
 
 .btn.btn-primary,
@@ -70,7 +92,9 @@
     width: 38px;
     height: 38px;
 }
-
+Link{
+    font-family: 'Serif';
+}
 .btn-sm-square {
     width: 32px;
     height: 32px;
@@ -96,7 +120,7 @@
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
-    font-family: "Font Awesome 5 Free";
+    font-family: 'Serif';
     font-weight: 900;
     vertical-align: middle;
     margin-left: 8px;
@@ -166,6 +190,7 @@
 /*** Header ***/
 .header-carousel .owl-carousel-text {
     position: absolute;
+    font-family: 'Serif';
     width: 100%;
     height: 100%;
     padding: 3rem;

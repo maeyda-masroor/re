@@ -1,6 +1,7 @@
 import ReactWhatsapp from "react-whatsapp";
 function TopNavbar(){
-    return <div><div class="container-fluid bg-light p-0 wow fadeIn" data-wow-delay="0.1s">
+    return <div style={{fontFamily:'Serif'}}
+    ><div class="container-fluid bg-light p-0 wow fadeIn" data-wow-delay="0.1s">
     <div class="row gx-0 d-none d-lg-flex ">
         <div class="col-lg-7 px-3 text-start">
             <div class="d-inline-flex align-items-center py-1 me-4 h-28">

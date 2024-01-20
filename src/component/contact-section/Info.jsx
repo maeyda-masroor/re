@@ -19,11 +19,10 @@ const contactDetails = [
 
 const renderContactDetails = () =>
   contactDetails.map(detail => (
-    <i><p key={detail.value} className="info-detail">
+  <p key={detail.value} className="info-detail">
       <InlineIcon icon={detail.icon} /> {detail.value}
     </p>
-    </i>
-  ))
+   ))
 
 const renderIcons = () =>
   [facebookIcon, linkedinIcon, twitterIcon].map((icon, key) => (
@@ -32,7 +31,7 @@ const renderIcons = () =>
 
 const Info = () => (
   <section className="info bg-amber-900">
-    <i><h2 style={{fontSize:'35px'}}>Contact information</h2></i>
+    <h2 style={{fontSize:'35px'}}>Contact information</h2>
 
     <div className="info-details-container">{renderContactDetails()}</div>
 

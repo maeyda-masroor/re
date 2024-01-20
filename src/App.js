@@ -7,7 +7,7 @@ import NEPHROLOGIST from './page/Nephrologist';
 import Gastrologist from './page/Gastrologist';
 import CARDIOLOGIST from './page/Cardologist';
 import NeuroSurgeon from './page/neurosurgeon';
-import Orthopedic from './page/orthopedicSurgeon';
+import Orthopedic from './page/orthpedicsurgeon';
 import GeneralSurgeon from './page/generalSurgeon';
 import Pediatrician from './page/Pediatrician';
 import Phycologist from './page/physcologist';

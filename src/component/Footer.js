@@ -42,14 +42,14 @@ function Footer(){
                    
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Quick Links</h5>
-                    <Link class="btn btn-link" to="/gallery">Youtube Gallery</Link>
-                    <Link class="btn btn-link" to="/trainingAnddevelopment">training and development</Link>
-                    <Link class="btn btn-link" to="/healthAdvice">health Advice</Link>
-                    <Link class="btn btn-link" to="/healthClinic">health CLinic</Link>
-                    <Link class="btn btn-link" to="/becomeAnrcMember">become an RC member</Link>
-                    <Link class="btn btn-link" to = '/pharmacist'>Pharmacists</Link>
-                    <Link class="btn btn-link" to = "/checkyouremail">Check Your Email</Link>
-                    <Link class="btn btn-link" to = "/help">Help</Link>
+                    {/*<Link class="btn btn-link" to="/gallery" style={{fontFamily:'Serif'}}>Youtube Gallery</Link>*/}
+                    <Link class="btn btn-link" to="/trainingAnddevelopment"style={{fontFamily:'Serif'}} >training and development</Link>
+                    <Link class="btn btn-link" to="/healthAdvice"style={{fontFamily:'Serif'}}>health Advice</Link>
+                    <Link class="btn btn-link" to="/healthClinic"style={{fontFamily:'Serif'}}>health CLinic</Link>
+                    <Link class="btn btn-link" to="/becomeAnrcMember"style={{fontFamily:'Serif'}}>become an RC member</Link>
+                    <Link class="btn btn-link" to = '/pharmacist'style={{fontFamily:'Serif'}}>Pharmacists</Link>
+                    <Link class="btn btn-link" to = "/checkyouremail"style={{fontFamily:'Serif'}}>Check Your Email</Link>
+                    <Link class="btn btn-link" to = "/help"style={{fontFamily:'Serif'}}>Help</Link>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Newsletter</h5>

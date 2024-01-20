@@ -1,9 +1,9 @@
 import {Link} from 'react-router-dom';
 function Pharmacists(){
   return  <div class="container">
-        <i><h1 style={{fontSize:'45px'}}>Pharmacist</h1></i>
+        <h1 style={{fontSize:'25px'}}>Pharmacist</h1>
         <center><img src = "pharmacy.gif"/></center>
-        <i><p class="heading">
+        <p>
         Remedial Centre pharmacy has extensive experience in health care sector and clinical care.
 <ul>
 <li> Pharmacy deals in dispensing medicines for both inpatient & outpatient.</li>
@@ -20,9 +20,12 @@ function Pharmacists(){
 
 <li> Full range of medicine available.</li>
     </ul>
+    <br/>
     Our E-Pharmacy website is coming soon!
+    <br/>
+    <p>Please Check Out Our e-pharmacy(husain remedies)</p>
     <Link to = "https://husain-six.vercel.app/">E-Phamarcy</Link>
-    </p></i>
+    </p>
     </div>
 }
 export default Pharmacists;

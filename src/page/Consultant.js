@@ -6,7 +6,7 @@ import NEPHROLOGIST from './Nephrologist';
 import Gastrologist from './Gastrologist';
 import CARDIOLOGIST from './Cardologist';
 import NeuroSurgeon from './neurosurgeon';
-import Orthopedic from './orthopedicSurgeon';
+import Orthopedic from './orthpedicsurgeon';
 import GeneralSurgeon from './generalSurgeon';
 import Pediatrician from './Pediatrician';
 import Phycologist from './physcologist';
@@ -34,8 +34,6 @@ function Consultant() {
         <GYNACOLOGIST/>
         <br/>
         <GeneralSurgeon/>
-        <br/>
-        <GYNACOLOGIST/>
         <br/>
         <NEPHROLOGIST/>
         <br/>

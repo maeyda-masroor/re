@@ -24,10 +24,10 @@ function MakeAnInquiry(){
   
     };
     return <div class="container"> 
-        <i><h1 style={{fontSize:'35px'}}>Give Us Feeback , If you have an Inquiry , you may <Link to = '/contact'>Contact Us</Link> or Fill the form below</h1></i>
+        <h1 style={{fontSize:'35px'}}>Give Us Feeback , If you have an Inquiry , you may <Link to = '/contact'>Contact Us</Link> or Fill the form below</h1>
         <br/>
-     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-    <div class="bg-light rounded h-100 d-flex align-items-center p-5">
+     <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.5s">
+    <center><div class="rounded h-100 d-flex align-items-center p-5" style={{backgroundColor:'#c19468'}}>
         <form onSubmit={handleSubmit(onSubmit)}>
             <i><div class="row g-3">
                 <div class="col-12 col-sm-6">
@@ -38,15 +38,15 @@ function MakeAnInquiry(){
                     name="email"
                     {...register("email", {
                       required: true,
-                      //pattern:/^[a-zA-Z0-9]+@(?:[a-zA-Z0-9]+\.)+[A-Za-z]+$/i
+                      pattern:/^[a-zA-Z0-9]+@(?:[a-zA-Z0-9]+\.)+[A-Za-z]+$/i
                     })}
                     onChange={(e) => setEmail(e.target.value)}
                     />
                   {errors.email && errors.email.type === "required" && (
-                    <p className="errorMsg">Email is required.</p>
+                    <p className="errorMsg">Put email in this format example@example.com.</p>
                   )}
                   {errors.email && errors.email.type === "pattern" && (
-                    <p className="errorMsg">Email is not valid.</p>
+                    <p className="errorMsg">Put email in this format example@example.com</p>
                   )}
                 </div>
                 <div class="col-12 col-sm-6">
@@ -54,15 +54,15 @@ function MakeAnInquiry(){
                     name="phonenumber"
                     {...register("phonenumber", {
                       required: true,
-                      //pattern:/^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$/i
+                      pattern:/^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/i
                     })}
                     onChange={(e) => setPhoneNumber(e.target.value)}
                     />
                   {errors.email && errors.email.type === "required" && (
-                    <p className="errorMsg">Email is required.</p>
+                    <p className="errorMsg">Phone number is required. / Please put phonenumber in this format ... (123)12345678</p>
                   )}
                   {errors.email && errors.email.type === "pattern" && (
-                    <p className="errorMsg">Email is not valid.</p>
+                    <p className="errorMsg">Please put phoneNumber in this format ..... (123)12345678.</p>
                   )}
                 </div>
                 <div class="col-12">
@@ -75,8 +75,10 @@ function MakeAnInquiry(){
             </i>
         </form>
     </div>
+    </center>
 </div>
 </div>
+
 
 }
 export default MakeAnInquiry;
